@@ -1,0 +1,3 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+DynaStack = "db71ba40-7839-4148-b351-dc6d616210b4"
