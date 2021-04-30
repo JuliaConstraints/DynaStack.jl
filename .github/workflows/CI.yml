@@ -62,9 +62,9 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using DynaStack
-            DocMeta.setdocmeta!(DynaStack, :DocTestSetup, :(using DynaStack); recursive=true)
-            doctest(DynaStack)'
+            using Dynstack
+            DocMeta.setdocmeta!(Dynstack, :DocTestSetup, :(using Dynstack); recursive=true)
+            doctest(Dynstack)'
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

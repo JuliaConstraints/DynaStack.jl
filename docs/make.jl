@@ -1,16 +1,16 @@
-using DynaStack
+using Dynstack
 using Documenter
 
-DocMeta.setdocmeta!(DynaStack, :DocTestSetup, :(using DynaStack); recursive=true)
+DocMeta.setdocmeta!(Dynstack, :DocTestSetup, :(using Dynstack); recursive=true)
 
 makedocs(;
-    modules=[DynaStack],
+    modules=[Dynstack],
     authors="Jean-Francois Baffier",
-    repo="https://github.com/JuliaConstraints/DynaStack.jl/blob/{commit}{path}#{line}",
-    sitename="DynaStack.jl",
+    repo="https://github.com/JuliaConstraints/Dynstack.jl/blob/{commit}{path}#{line}",
+    sitename="Dynstack.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://JuliaConstraints.github.io/DynaStack.jl",
+        canonical="https://JuliaConstraints.github.io/Dynstack.jl",
         assets=String[],
     ),
     pages=[
@@ -19,6 +19,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/JuliaConstraints/DynaStack.jl",
+    repo="github.com/JuliaConstraints/Dynstack.jl",
     devbranch="main",
 )

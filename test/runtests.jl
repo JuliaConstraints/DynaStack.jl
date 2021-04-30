@@ -1,6 +1,6 @@
-using DynaStack
+using Dynstack
 using Test
 
-@testset "DynaStack.jl" begin
+@testset "Dynstack.jl" begin
     # Write your tests here.
 end

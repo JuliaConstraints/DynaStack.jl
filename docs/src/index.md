@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = DynaStack
+CurrentModule = Dynstack
 ```
 
-# DynaStack
+# Dynstack
 
-Documentation for [DynaStack](https://github.com/JuliaConstraints/DynaStack.jl).
+Documentation for [Dynstack](https://github.com/JuliaConstraints/Dynstack.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [DynaStack]
+Modules = [Dynstack]
 ```
